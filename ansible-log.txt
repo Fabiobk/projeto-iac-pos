@@ -1,0 +1,66 @@
+ANSIBLE
+EXECUTION
+LOG
+-
+PROJETO
+IAC
+✅
+ANSIBLE
+PLAYBOOK
+EXECUTADO:
+PLAY
+[Configurar
+servidor
+web]
+TASK
+[Mostrar
+mensagem
+de
+sucesso]
+ok:
+[localhost]
+^>
+ >> prints\ansible-log.txt
+echo     "msg": "✅ PROJETO IAC CONCLUÍDO!" >> prints\ansible-log.txt
+echo     "Tecnologias: Terraform + Ansible + Docker" >> prints\ansible-log.txt
+echo     "Aluno: Fábio Cunha Rodrigues" >> prints\ansible-log.txt
+echo     "Instituição: UNYLEYA" >> prints\ansible-log.txt
+echo     "Matrícula: 81361173" >> prints\ansible-log.txt
+echo 
+PLAY
+RECAP:
+localhost:
+ok=1
+changed=0
+unreachable=0
+failed=0
+🎯
+CONFIGURAÇÃO
+REALIZADA:
+-
+Simulação
+de
+configuração
+com
+Ansible
+-
+Mensagem
+de
+sucesso
+do
+projeto
+-
+Validação
+dos
+conceitos
+de
+IaC
+👨‍🎓
+ALUNO:
+Fábio
+Cunha
+Rodrigues
+-
+81361173
+-
+UNYLEYA
