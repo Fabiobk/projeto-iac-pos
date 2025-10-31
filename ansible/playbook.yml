@@ -1,0 +1,13 @@
+---
+- name: Configurar servidor web
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Mostrar mensagem de sucesso
+      debug:
+        msg: |
+          ✅ PROJETO IAC CONCLUÍDO!
+          Tecnologias: Terraform + Ansible + Docker
+          Aluno: Fábio Cunha Rodrigues
+          Instituição: UNYLEYA
+      
