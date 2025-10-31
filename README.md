@@ -14,8 +14,6 @@ Projeto de Infraestrutura como Código - Terraform + Ansible + Docker
 
 ## 👨‍🎓 Informações do Aluno
 - **Nome:** Fábio Cunha Rodrigues
-- **Matrícula:** 81361173
-- **Instituição:** UNYLEYA
 - **Curso:** Engenharia DevOps
 
 ## 📸 Evidências
