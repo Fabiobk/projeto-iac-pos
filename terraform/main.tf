@@ -31,7 +31,7 @@ resource "docker_container" "projeto_faculdade" {
   command = [
     "sh", 
     "-c", 
-    "echo '<!DOCTYPE html><html><head><title>🎯 Projeto IaC</title><style>body{font-family:Arial;margin:40px;background:linear-gradient(135deg,#667eea,#764ba2);color:white}</style></head><body><h1>🚀 PROJETO IAC - FACULDADE</h1><div style=\"background:rgba(255,255,255,0.1);padding:20px;border-radius:10px\"><p><strong>✅ Ambiente criado com Terraform + Docker</strong></p><p><strong>Tecnologias:</strong> Terraform, Docker, NGINX</p><p><strong>Aluno:</strong> 81361173</p><p><strong>Instituição:</strong> UNYLEYA</p><p><strong>Data:</strong> $(date +\"%d/%m/%Y %H:%M\")</p></div></body></html>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+    "echo '<!DOCTYPE html><html><head><title>🎯 Projeto IaC</title><style>body{font-family:Arial;margin:40px;background:linear-gradient(135deg,#667eea,#764ba2);color:white}</style></head><body><h1>🚀 PROJETO IAC - POS</h1><div style=\"background:rgba(255,255,255,0.1);padding:20px;border-radius:10px\"><p><strong>✅ Ambiente criado com Terraform + Docker</strong></p><p><strong>Tecnologias:</strong> Terraform, Docker, NGINX</p><p><strong>Aluno:</strong> 81361173</p><p><strong>Instituição:</strong> UNYLEYA</p><p><strong>Data:</strong> $(date +\"%d/%m/%Y %H:%M\")</p></div></body></html>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
   ]
 }
 
@@ -42,4 +42,5 @@ output "url_do_servidor" {
 
 output "status_do_container" {
   value = "✅ Container Docker criado com sucesso!"
+
 }
